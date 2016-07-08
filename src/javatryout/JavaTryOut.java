@@ -23,7 +23,6 @@ public class JavaTryOut {
     }
 
     private static void startProgramHandler() {
-        
     }
     
     private static void ReadNumber() {
@@ -40,7 +39,7 @@ public class JavaTryOut {
         numbers.add(number);
     }
     /* 
-        code for scanf :
+        scanf code substitude for java :
             Scanner scanIn = new Scanner(System.in);
             sWhatever = scanIn.nextLine();
     */
@@ -48,10 +47,16 @@ public class JavaTryOut {
         List<String> calculation = new ArrayList();
         
         calculation.add(calc);
+        
     }
     
     private static void Calculate() {
+        int paok = 10;
+        int whatever;
+        Scanner scanIn = new Scanner(System.in);
+        String sWhatever = scanIn.nextLine();
         
+        System.out.println();
     }
     
     private static void PrintResults() {
